@@ -1,0 +1,44 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    &title h2{
+        color: $collor-claro;
+        @extend %letra60px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    &title .llamanos{
+        color: $collor-claro;
+        font-size: 20px;
+        text-decoration: none;
+        display: inline-block;
+        background: #1A2849;
+        padding: 20px;
+    }
+
+    &_img{
+        animation: movimiento 2.5s linear infinite;
+    }
+
+
+    &_img{
+        width: 600px;
+        display: block;
+    }
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+
+
+
+    &img{
+        width: 600px;
+        display: block;
+    }
+}
+
