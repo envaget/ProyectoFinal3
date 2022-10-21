@@ -290,3 +290,8 @@ body{
         transform: translateY(0);
     }
 }
+
+.change {
+    flex-direction: column;
+}
+

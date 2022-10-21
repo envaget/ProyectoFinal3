@@ -5,8 +5,13 @@
   font-size: 60px; }
 
 body {
+  overflow-x: hidden;
   padding-bottom: 3rem;
   color: #5a5a5a; }
+
+.navbar {
+  width: 100%;
+}
 
 .banner {
   display: flex;
@@ -156,3 +161,16 @@ body {
   background-color: #504949;
   scale: 5;
   transition: all 3s; }
+
+
+  @media screen and (max-width: 1200px) {
+    .change {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .centrarimagen{
+      display: flex;
+      justify-content: center;
+    }
+  }
