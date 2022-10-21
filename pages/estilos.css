@@ -49,9 +49,10 @@ body{
 
 .banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100%;
+    gap: 10vh;
 }
 
 .banner_title h2{
@@ -75,7 +76,7 @@ body{
 }
 
 .banner_img img{
-    width: 600px;
+    width: 100%;
     display: block;
 }
 
@@ -201,3 +202,12 @@ body{
     }
 
 }
+
+@media screen and (max-width: 1200px) {
+    .change {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    }
